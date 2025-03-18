@@ -31,10 +31,10 @@ WHERE EmpID =2
 
 --DELETE has been demonstrated above with an example, we can see that it can delete values (rows), keeping the table
 
---DROP on the other hand is used to remove specific columns
+--DROP on the other hand is used to remove specific columns and even the entire table
 ALTER TABLE Employees
 DROP COLUMN Salary
---And even the entire table
+
 DROP TABLE Employees
 
 --TRUNCATE can remove all rows quickly as well as reseting the identities of the columns (aka formats)
